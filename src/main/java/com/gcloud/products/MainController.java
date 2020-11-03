@@ -34,7 +34,7 @@ public class MainController {
         private String callMS2() throws IOException {
             HttpURLConnection con = null;
             try {
-                con = openConnection(new URL("http://localhost:8082/HelloWorld"));
+                con = openConnection(new URL("https://productdata-4432bmkdcq-uc.a.run.app/HelloWorld"));
 
                 con.setConnectTimeout(1000);
                 con.setReadTimeout(1000);
